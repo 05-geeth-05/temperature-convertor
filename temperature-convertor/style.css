@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    place-items:center;
+    background-image: url(file:///C:/Users/rsdge/Downloads/pexels-pixabay-162550.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#convert {
+    background-color: #a1861b;
+  }
+  #convert:hover {
+    background-color: #95a420;
+  }
+  h1 {
+    font-family: sans-serif;
+    color: red;
+  }
+  input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #c87f36;
+    font-family: cursive, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: #a12222;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #551b1b;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #7a1414;  
+  }
+  :-ms-input-placeholder {  
+     color: #c11b1b;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #545454;
+  }
